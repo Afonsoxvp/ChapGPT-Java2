@@ -29,6 +29,8 @@ public class Main {
 		OpenAiRequestToJsonString mapper = new OpenAiRequestToJsonString();
 		String jsonPayload = mapper.map(req);
 		
+		//novo comentario 
+		
 		System.out.println(jsonPayload);
 	}
 
